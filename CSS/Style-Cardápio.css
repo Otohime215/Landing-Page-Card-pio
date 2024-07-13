@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(/Image/Fundo.jpg);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+.menu {
+    background: linear-gradient(45deg, rgba(255, 250, 197, 0.614) 20%, rgb(254, 108, 50) 100%);   
+    /*background-color: #ffffff;*/
+    box-shadow: 0.1 0.1 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 700px;
+    padding: 40px;
+    border-radius: 8px;
+}
+
+.menu h1 {
+    text-shadow: 0.1em 0.1em 0.2em rgb(253, 5, 5);
+    text-align: center;
+    font-size: 44px;
+    color: #333;
+}
+
+.menu h3{
+    text-shadow: 0 0 0.2em rgb(7, 7, 7), 0 0 0.2em rgb(7, 7, 7);
+    text-align: center;
+    color: #ffffff;
+}
+
+.menu th {
+    font-size: 20px;
+    text-shadow: 0 0 0.7em rgb(249, 18, 18), 0 0 0.2em rgb(79, 69, 146), 0 0 0.2em rgb(255, 255, 255);
+    text-transform: uppercase;
+    text-align: center;
+    color: #000000;
+    background-color: #f9f4f4;
+    border: 2px;
+    border-radius: 7px;
+}
+
+.menu td {
+    text-shadow: 0 0 0.2em rgb(168, 164, 164);
+    color: #333;
+}
+.item{
+    width: 180px;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bolder;
+    text-align: left;
+    align-items: center;
+}
+.colum2{
+    width: 450px;
+    font-size: 16px;
+}
+.colum3{
+    width: 200px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+}
+
+/*.colum4{
+    width: 180px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+}*/
+.divers{
+    text-align: center;
+}
+footer{
+    font-size: 14px;
+    text-align: center;
+    background-color: #ff0e0ea4;
+    font-weight: bold;
+    border-radius: 7px;
+}
+

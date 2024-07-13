@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardápio da Hamburgueria</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .menu {
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 80%;
+            max-width: 600px;
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        .menu h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        .menu h2 {
+            border-bottom: 2px solid #ff6347;
+            padding-bottom: 5px;
+            color: #ff6347;
+        }
+
+        .item {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 0;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .item:last-child {
+            border-bottom: none;
+        }
+
+        .item-name {
+            font-weight: bold;
+            color: #333;
+        }
+
+        .item-price {
+            color: #ff6347;
+        }
+    </style>
+</head>
+<body>
+    <div class="menu">
+        <h1>Cardápio da Hamburgueria</h1>
+
+        <h2>Hambúrgueres</h2>
+        <div class="item">
+            <div class="item-name">Hambúrguer Clássico</div>
+            <div class="item-ingrediente">Pão de hamburguer, hamburguer, queijo e salada</div>
+            <div class="item-price">R$ 20,00</div>
+        </div>
+        <div class="item">
+            <div class="item-name">Cheeseburguer</div>
+            <div class="item-price">R$ 25,00</div>
+        </div>
+        <div class="item">
+            <div class="item-name">Bacon Burguer</div>
+            <div class="item-price">R$ 28,00</div>
+        </div>
+
+        <h2>Acompanhamentos</h2>
+        <div class="item">
+            <div class="item-name">Batata Frita</div>
+            <div class="item-price">R$ 10,00</div>
+        </div>
+        <div class="item">
+            <div class="item-name">Onion Rings</div>
+            <div class="item-price">R$ 12,00</div>
+        </div>
+
+        <h2>Bebidas</h2>
+        <div class="item">
+            <div class="item-name">Refrigerante</div>
+            <div class="item-price">R$ 5,00</div>
+        </div>
+        <div class="item">
+            <div class="item-name">Água</div>
+            <div class="item-price">R$ 3,00</div>
+        </div>
+    </div>
+</body>
+</html>
